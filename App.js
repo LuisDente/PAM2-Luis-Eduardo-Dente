@@ -8,13 +8,11 @@ export default function App() {
       <Texto>
         Teste de Customização!
       </Texto>
-      <Imagem source={{ uri: 'https://i.dailymail.co.uk/1s/2020/01/29/21/24053262-7944405-image-m-18_1580333930708.jpg' }} style={styles.logo} />
-  
-
+      <Imagem source={{ uri: 'https://lumiere-a.akamaihd.net/v1/images/cocorico_fundo_e30bfd0d.jpeg?region=0,2,2560,1438' }} style={styles.logo} />
       <TouchableOpacity
-        onPress={() => alert('MO?NO?BO?LA?')}
+        onPress={() => alert('I LOVE YOU !')}
         style={{ backgroundColor: 'papayawhip'}}>
-        <Texto id='teste'>Siles, Não Click!</Texto>
+        <Texto id='teste'>Siles...!</Texto>
       </TouchableOpacity>
     </Container>
   );
